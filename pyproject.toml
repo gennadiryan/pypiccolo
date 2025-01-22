@@ -5,17 +5,30 @@ build_backend = "setuptools.build_meta"
 [project]
 name = "pypiccolo_gennadiryan"
 version = "0.0.1"
-authors = [
-    { name = "example", email = "example@example.org", },
+dependencies = [
+    "numpy>=2.2",
 ]
-description = ""
-readme = "README.md"
 requires-python = ">=3.12"
-classifiers = [
-    "Programming Language :: Python :: 3",
-    "Operating System :: OS Independent",
+authors = [
+    { name = "Gennadi Ryan", email = "gennadiryan@gmail.org" },
+    { name = "Jack Champagne", email = "" },
 ]
+# maintainers = [
+#     { name = "example", email = "example@example.com" },
+# ]
+# description = ""
+readme = "README.md"
 license = "MIT"
 license-files = ["LICENSE",]
+# keywords = ["hello", "world",]
+# classifiers = [
+#     "Programming Language :: Python :: 3",
+#     "Operating System :: OS Independent",
+# ]
 
 [project.urls]
+# Homepage = ""
+# Documentation = ""
+# Repository = ""
+# Issues = ""
+# Changelog = ""
